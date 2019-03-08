@@ -31,14 +31,14 @@ info.addTo(map);
 
 
 function getColor(d) {
-    return d > 1000 ? '#fff7fb' :
-           d > 500  ? '#ece7f2' :
-           d > 200  ? '#d0d1e6' :
-           d > 100  ? '#a6bddb' :
-           d > 50   ? '#74a9cf' :
-           d > 20   ? '#3690c0' :
-           d > 10   ? '#0570b0' :
-                      '#034e7b';
+    return d > 1000 ? '#034e7b' :
+           d > 500  ? '#0570b0' :
+           d > 200  ? '#3690c0' :
+           d > 100  ? '#74a9cf' :
+           d > 50   ? '#a6bddb' :
+           d > 20   ? '#d0d1e6' :
+           d > 10   ? '#ece7f2' :
+                      '#fff7fb';
 }
 
 function style(feature) {
